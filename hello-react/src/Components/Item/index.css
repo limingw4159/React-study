@@ -1,0 +1,26 @@
+li label {
+  float: left;
+  cursor: pointer;
+}
+
+li label li input {
+  vertical-align: middle;
+  margin-right: 6px;
+  position: relative;
+  top: -1px;
+}
+
+li label li button {
+  float: right;
+  display: none;
+  margin-top: 3px;
+}
+
+li label li:before {
+  content: initial;
+}
+
+li label li :last-child {
+  border-bottom: none;
+}
+/*# sourceMappingURL=index.css.map */
