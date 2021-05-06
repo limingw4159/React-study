@@ -83,6 +83,7 @@ export default class App extends Component {
   };
   render() {
     const { todos } = this.state;
+    console.log(this);
     return (
       <div className="todo-container">
         <Header addTodo={this.addTodo} />
